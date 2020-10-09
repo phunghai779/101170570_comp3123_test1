@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Question 1</title>
-</head>
-<body>
-    <script>
-        const mixedArray = ['PIZZA', 10, true, 25, false, "Wings"];
+const mixedArray = ['PIZZA', 10, true, 25, false, "Wings"];
         const mixedArray2 = [];
         
 
@@ -21,8 +12,4 @@
                 resolve(console.log(mixedArray2.sort()));
             })
         }
-        
-        lowerCaseWords(mixedArray);
-    </script>
-</body>
-</html>
+lowerCaseWords(mixedArray);
